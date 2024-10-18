@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
 using MicroServiceCounterTex.Data;
-using MicroServiceCounterTex.Models;
 using Microsoft.EntityFrameworkCore;
+using MicroServiceCounterTex.Models.PerfilEmpleado;
 
 namespace MicroServiceCounterTex.Controllers
 {

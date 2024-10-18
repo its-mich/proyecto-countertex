@@ -19,7 +19,7 @@ namespace MicroServiceCounterTex.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     NombreCompleto = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     Correo = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    FechaContrato = table.Column<DateOnly>(type: "date", nullable: false),
+                    FechaContrato = table.Column<DateTime>(type: "date", nullable: false),
                     Activo = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>

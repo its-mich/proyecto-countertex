@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using MicroServiceCounterTex.Models;
+using MicroServiceCounterTex.Models.PerfilEmpleado;
 
 namespace MicroServiceCounterTex.Data
 {
