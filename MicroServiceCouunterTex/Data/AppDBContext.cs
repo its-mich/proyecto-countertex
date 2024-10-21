@@ -19,7 +19,6 @@ namespace MicroServiceCounterTex.Data
             modelBuilder.Entity<Empleado>(tb =>
             {
                 tb.HasKey(col => col.IdEmpleado);
-
                 tb.Property(col => col.IdEmpleado)
                 .UseIdentityColumn()
                 .ValueGeneratedOnAdd();
