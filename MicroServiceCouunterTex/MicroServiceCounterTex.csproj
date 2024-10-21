@@ -18,7 +18,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Models\iniciosesion\" />
+	  <Folder Include="Models\Usuarios\" />
+	  <Folder Include="Models\Satelite\" />
+	  <Folder Include="Models\Registro\" />
+	  <Folder Include="Models\Produccion Diaria\" />
 	</ItemGroup>
 
 </Project>
